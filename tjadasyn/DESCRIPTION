@@ -1,0 +1,21 @@
+Package: tjadasyn
+Type: Package
+Title: Modifications to Adaptive Synthetic Sampling (ADASYN)
+Version: 0.1.0
+Author: Julia Fortna, Tejasvi Yadav
+Maintainer: <jmf363@cornell.edu>, <tj386@cornell.edu>
+Description: Implements Adaptive Synthetic Sampling (ADASYN) with some modifications including two tuning parameters for adding random noise and a proportion of informative features to be used.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports:
+    lsa,
+    RANN,
+    caret,
+    tree,
+    stats
+RoxygenNote: 7.3.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
